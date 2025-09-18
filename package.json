@@ -1,0 +1,28 @@
+{
+  "name": "nail-studio-app",
+  "version": "1.0.0",
+  "description": "A Nail Studio Appointment and Feedback Management Web App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nail-studio",
+    "appointments",
+    "feedback",
+    "crud",
+    "dbms"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
